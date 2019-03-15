@@ -57,17 +57,13 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
   var list = [];
-  //list.push(`The sum of ${a} and ${b} is ${sum}.`)
    var bigSum = sum(a,b);
    console.log(bigSum[0], "line 62 = 11 index 0")
    var total = sum(bigSum[0], c);
-
    list.push(total[0]);
    console.log(list, "list line 661")
-
    var product  = multiply(a, b);
    console.log(product[0], "product line 69 2 ites")
-
    var productTotal = multiply(product[0], c);
    list.push(productTotal[0])
    list.push(`${a} and ${b} and ${c} sum to ${total[0]}.`);
